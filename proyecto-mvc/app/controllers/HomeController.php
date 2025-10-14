@@ -2,9 +2,20 @@
 namespace app\controllers;
 
 class HomeController {
-    public function index() {
-        ob_start();
-        include __DIR__ . "/../views/home.php";
-        return ob_get_clean();
+    public function index(){
+        return $this->view('HomeView', ['title' => 'Bienvenido']);
+    }
+    public function layout(){
+        return $this->view('layout', ['title' => 'Bienvenido']);
+    }
+    private function view($vista, $data = []){
+        extract($data);
+        $rutaVista = __DIR__ . "/../views/$vista.php";
+        if(file_exists($rutaVista)){
+            ob_start();
+            include $rutaVista;
+            return ob_get_clean();
+        }
+        return "Vista no encontrada: $vista";
     }
 }

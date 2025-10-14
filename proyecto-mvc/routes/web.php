@@ -5,7 +5,8 @@ use app\controllers\DiaController;
 use app\controllers\InfoController;
 use app\controllers\VisitaController;
 
-Route::get("/", [HomeController::class, "index"]);
+Route::get("/home", [HomeController::class, "index"]);
+Route::get("/layout", [HomeController::class, "layout"]);
 Route::get("/dia1", [DiaController::class, "dia1"]);
 Route::get("/dia2", [DiaController::class, "dia2"]);
 Route::get("/dia3", [DiaController::class, "dia3"]);
