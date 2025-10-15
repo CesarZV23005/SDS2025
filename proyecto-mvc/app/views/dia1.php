@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <link rel="stylesheet" href="">Regresar
     <h1>hola xd</h1>
 </body>
 </html>

@@ -2,15 +2,17 @@
 namespace app\controllers;
 
 class DiaController {
-    public function dia1() { return $this->render("dia1"); }
-    public function dia2() { return $this->render("dia2"); }
-    public function dia3() { return $this->render("dia3"); }
-    public function dia4() { return $this->render("dia4"); }
-    public function dia5() { return $this->render("dia5"); }
-
-    private function render($dia) {
-        ob_start();
-        include __DIR__ . "/../views/dias/{$dia}.php";
-        return ob_get_clean();
+    public function dia1(){
+        return $this->view('dia1', ['title' => 'dia1']);
+    }
+    private function view($vista, $data = []){
+        extract($data);
+        $rutaVista = __DIR__ . "/../views/$vista.php";
+        if(file_exists($rutaVista)){
+            ob_start();
+            include $rutaVista;
+            return ob_get_clean();
+        }
+        return "Vista no encontrada: $vista";
     }
 }
