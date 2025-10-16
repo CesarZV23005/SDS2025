@@ -135,13 +135,14 @@
                 <!-- info 2 -->
                 <div class="bg-card border border-border rounded-lg p-6 space-y-3">
                     <h3 class="text-xl font-semibold text-primary">
-                        
+                        Construyendo un CRUD en minutos con Laravel y Filament
                     </h3>
                     <p class="text-muted">
-                        
+                        En este taller se demostraron conocimiento para el manejo de vistas funcionales de administracion, haciendo uso de Laravel y Filament y los respectivos CRUDS,
+                        tambien se abordo un poco sobre docker.
                     </p>
                     <div class="text-sm text-muted">
-                        <span class="font-medium">Ponente:</span>
+                        <span class="font-medium">Ponente:</span> Gabriel Castillo
                     </div>
                 </div>
             </section>
