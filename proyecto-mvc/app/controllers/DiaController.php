@@ -6,7 +6,7 @@ class DiaController {
         return $this->view('dia1', ['title' => 'dia1']);
     }
     public function dia2(){
-        return $this->view('dia1', ['title' => 'dia2']);
+        return $this->view('dia2', ['title' => 'dia2']);
     }
     public function dia3(){
         return $this->view('dia3', ['title' => 'dia3']);
