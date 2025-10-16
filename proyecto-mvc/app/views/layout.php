@@ -136,7 +136,7 @@
                 <h3 class="text-lg font-semibold mb-4">Explora el Evento</h3>
                 <p class="text-muted mb-4">
                     Utiliza el menú de navegación superior para explorar las actividades de cada día,
-                    conocer más sobre mi y registrar tu visita al blog.
+                    conocer más sobre mi y registra tu visita al blog.
                 </p>
             </section>
         </div>
