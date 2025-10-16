@@ -57,7 +57,7 @@
                     class="px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 text-muted hover:text-foreground hover:bg-secondary">
                     Día 5
                 </a>
-                <a href="/proyecto-mvc/public/mi-informacion"
+                <a href="/proyecto-mvc/public/informacion"
                     class="px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 text-muted hover:text-foreground hover:bg-secondary">
                     Mi Información
                 </a>
