@@ -41,11 +41,11 @@
                     Inicio
                 </a>
                 <a href="/proyecto-mvc/public/dia1"
-                    class="px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 bg-secondary text-foreground">
+                    class="px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 text-muted hover:text-foreground hover:bg-secondary">
                     Día 1
                 </a>
                 <a href="/proyecto-mvc/public/dia2"
-                    class="px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 text-muted hover:text-foreground hover:bg-secondary">
+                    class="px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 bg-secondary text-foreground">
                     Día 2
                 </a>
                 <a href="/proyecto-mvc/public/dia3"
@@ -87,7 +87,8 @@
             <section class="bg-card border border-border rounded-lg p-8 space-y-6">
                 <h2 class="text-2xl font-semibold text-foreground">Descripción del Día</h2>
                 <p class="text-muted">
-                    
+                Este dia se llevo a cabo en modalidad virtual debido a la alerta por lluvias a nivel nacional, a pesar de eso, no se impidio
+                que se ejecutaran de manera exitosa los talleres y auditorias establecidas para el dia.
                 </p>
             </section>
 
@@ -100,13 +101,14 @@
                 <!-- info 1 -->
                 <div class="bg-card border border-border rounded-lg p-6 space-y-3">
                     <h3 class="text-xl font-semibold text-primary">
-                        
+                        Toma de decisiones estrategicas basadas en datos
                     </h3>
                     <p class="text-muted">
-                       
+                       En este taller aprendimos sobre el manejo de datos en masa, el como gestionarlos para tomar decisiones, el uso de tablas dinamicas para filtrar datos
+                       y la facilitacion que nos da el uso de IAs para manejar datos.
                     </p>
                     <div class="text-sm text-muted">
-                        <span class="font-medium">Ponente:</span>
+                        <span class="font-medium">Ponente:</span> Enrique Cortez
                     </div>
                 </div>
                 <!-- galeria -->

@@ -32,7 +32,7 @@
             <h1 class="text-5xl font-bold bg-gradient-to-r from-primary text-center to-blue-500 bg-clip-text text-transparent mb-6">
                 Semana de Sistemas 2025
             </h1>
-            <nav class="flex flex-wrap gap-2">
+            <nav class="flex flex-wrap gap-2 justify-center">
                 <a href="/proyecto-mvc/public/layout"
                     class="px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 text-muted hover:text-foreground hover:bg-secondary">
                     Inicio
