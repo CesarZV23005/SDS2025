@@ -89,9 +89,7 @@
                     La Semana de Sistemas 2025 es un evento de cinco días repleto de conferencias, talleres prácticos y
                     oportunidades de networking. Durante esta semana, expertos de la industria compartirán sus
                     conocimientos
-                    sobre las últimas tendencias en tecnología, desarrollo de software, inteligencia artificial,
-                    ciberseguridad
-                    y más.
+                    sobre las últimas tendencias en tecnología, desarrollo de software, inteligencia artificial y más.
                 </p>
 
                 <div class="grid md:grid-cols-3 gap-6 pt-6">
@@ -138,7 +136,7 @@
                 <h3 class="text-lg font-semibold mb-4">Explora el Evento</h3>
                 <p class="text-muted mb-4">
                     Utiliza el menú de navegación superior para explorar las actividades de cada día,
-                    conocer más sobre el organizador y registrar tu visita al blog.
+                    conocer más sobre mi y registrar tu visita al blog.
                 </p>
             </section>
         </div>
