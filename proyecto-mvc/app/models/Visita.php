@@ -6,9 +6,9 @@ use PDOException;
 
 class Database {
     private $host = "db";
-    private $db_name = "appdb";
-    private $username = "appuser";
-    private $password = "apppass";
+    private $db_name = "db_visitas";
+    private $username = "root";
+    private $password = "rootpass";
     private $conn;
 
     public function getConnection() {

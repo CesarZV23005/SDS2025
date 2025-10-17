@@ -66,7 +66,7 @@
                 </a>
                 <a href="/proyecto-mvc/public/visitas"
                     class="px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 bg-secondary text-foreground">
-                    Visitas
+                    Tu visita
                 </a>
             </nav>
         </div>

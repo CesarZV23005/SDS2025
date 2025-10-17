@@ -66,7 +66,7 @@
                 </a>
                 <a href="/proyecto-mvc/public/visitas"
                     class="px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 text-muted hover:text-foreground hover:bg-secondary">
-                    Visitas
+                    Tu visita
                 </a>
             </nav>
         </div>
@@ -94,19 +94,18 @@
             <!-- info -->
             <section class="space-y-4">
                 <h2 class="text-2xl font-semibold flex items-center gap-2 text-foreground">
-                    Ponencias y Talleres
+                    Actividades
                 </h2>
 
                 <!-- info 1 -->
                 <div class="bg-card border border-border rounded-lg p-6 space-y-3">
                     <h3 class="text-xl font-semibold text-primary">
-                        
+                        Bingo
                     </h3>
                     <p class="text-muted">
+                         Los estudiantes presentaron su proyecto de Bingo el cual ellos mismos crearon especialmente para esta actividad, con la participacion de todos
+                         para probar su suerte y divertirse, acompañado de premios por su participacion.                        
                     </p>
-                    <div class="text-sm text-muted">
-                        <span class="font-medium">Ponente:</span> 
-                    </div>
                 </div>
                 <!-- galeria -->
                 <section class="space-y-6 text-center">
@@ -122,10 +121,11 @@
                             </svg>
                             Imagenes
                         </h3>
-                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <div class="flex justify-center items-center">
                             <div
-                                class="bg-secondary border border-border rounded-lg p-2 aspect-video flex items-center justify-center">
-                                <img src="ruta" alt="Foto 1" class="w-full h-full object-cover rounded">
+                                class="bg-secondary border border-border rounded-lg p-2 aspect-video w-full max-w-3xl flex items-center justify-center">
+                                <img src="../resources/sds25_7.jpeg" alt="Foto 1"
+                                    class="w-full h-full object-cover rounded">
                             </div>
                         </div>
                 </section>
@@ -137,9 +137,6 @@
                     <p class="text-muted">
 
                     </p>
-                    <div class="text-sm text-muted">
-                        <span class="font-medium">Ponente:</span> 
-                    </div>
                 </div>
             </section>
 
