@@ -103,8 +103,9 @@
                         Bingo
                     </h3>
                     <p class="text-muted">
-                         Los estudiantes presentaron su proyecto de Bingo el cual ellos mismos crearon especialmente para esta actividad, con la participacion de todos
-                         para probar su suerte y divertirse, acompañado de premios por su participacion.                        
+                        Los estudiantes presentaron su proyecto de Bingo el cual ellos mismos crearon especialmente para
+                        esta actividad, con la participacion de todos
+                        para probar su suerte y divertirse, acompañado de premios por su participacion.
                     </p>
                 </div>
                 <!-- galeria -->
@@ -132,7 +133,7 @@
                 <!-- info 2 -->
                 <div class="bg-card border border-border rounded-lg p-6 space-y-3">
                     <h3 class="text-xl font-semibold text-primary">
-                        
+
                     </h3>
                     <p class="text-muted">
 
