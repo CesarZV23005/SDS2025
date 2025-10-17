@@ -87,26 +87,25 @@
             <section class="bg-card border border-border rounded-lg p-8 space-y-6">
                 <h2 class="text-2xl font-semibold text-foreground">Descripción del Día</h2>
                 <p class="text-muted">
-
+                    Este dia se celebra la feria de logros y la gran pupuseada donde participan estudiantes e inclusivo docentes!
                 </p>
             </section>
 
             <!-- info -->
             <section class="space-y-4">
                 <h2 class="text-2xl font-semibold flex items-center gap-2 text-foreground">
-                    Ponencias y Talleres
+                    Actividades
                 </h2>
 
                 <!-- info 1 -->
                 <div class="bg-card border border-border rounded-lg p-6 space-y-3">
                     <h3 class="text-xl font-semibold text-primary">
-                        
+                        Feria de logros
                     </h3>
                     <p class="text-muted">
+                        Aqui se dieron a relucir los mejores proyectos creados a lo largo del año por los estudiantes de la carrera Ingenieria de Sistemas Informaticos,
+                        de esta manera se conocieron proposiciones para sistemas cotidianos y algunos creatividad pura.
                     </p>
-                    <div class="text-sm text-muted">
-                        <span class="font-medium">Ponente:</span> 
-                    </div>
                 </div>
                 <!-- galeria -->
                 <section class="space-y-6 text-center">
@@ -132,14 +131,12 @@
                 <!-- info 2 -->
                 <div class="bg-card border border-border rounded-lg p-6 space-y-3">
                     <h3 class="text-xl font-semibold text-primary">
-                        
+                        La gran pupuseada
                     </h3>
                     <p class="text-muted">
-
+                        Aqui se reunieron las personas mas capaces en cuanto a digustar se trata, en esta competicion se enfrentaron estudiantes, docentes para 
+                        definir al ganador con la mayor capacidad de comer pupusas.
                     </p>
-                    <div class="text-sm text-muted">
-                        <span class="font-medium">Ponente:</span> 
-                    </div>
                 </div>
             </section>
 
