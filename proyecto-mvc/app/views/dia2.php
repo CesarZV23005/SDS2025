@@ -87,8 +87,9 @@
             <section class="bg-card border border-border rounded-lg p-8 space-y-6">
                 <h2 class="text-2xl font-semibold text-foreground">Descripción del Día</h2>
                 <p class="text-muted">
-                Este dia se llevo a cabo en modalidad virtual debido a la alerta por lluvias a nivel nacional, a pesar de eso, no se impidio
-                que se ejecutaran de manera exitosa los talleres y auditorias establecidas para el dia.
+                    Este dia se llevo a cabo en modalidad virtual debido a la alerta por lluvias a nivel nacional, a
+                    pesar de eso, no se impidio
+                    que se ejecutaran de manera exitosa los talleres y auditorias establecidas para el dia.
                 </p>
             </section>
 
@@ -104,8 +105,9 @@
                         Toma de decisiones estrategicas basadas en datos
                     </h3>
                     <p class="text-muted">
-                       En este taller aprendimos sobre el manejo de datos en masa, el como gestionarlos para tomar decisiones, el uso de tablas dinamicas para filtrar datos
-                       y la facilitacion que nos da el uso de IAs para manejar datos.
+                        En este taller aprendimos sobre el manejo de datos en masa, el como gestionarlos para tomar
+                        decisiones, el uso de tablas dinamicas para filtrar datos
+                        y la facilitacion que nos da el uso de IAs para manejar datos.
                     </p>
                     <div class="text-sm text-muted">
                         <span class="font-medium">Ponente:</span> Enrique Cortez
@@ -125,10 +127,11 @@
                             </svg>
                             Imagenes
                         </h3>
-                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <div class="flex justify-center items-center">
                             <div
-                                class="bg-secondary border border-border rounded-lg p-2 aspect-video flex items-center justify-center">
-                                <img src="ruta" alt="Foto 1" class="w-full h-full object-cover rounded">
+                                class="bg-secondary border border-border rounded-lg p-2 aspect-video w-full max-w-3xl flex items-center justify-center">
+                                <img src="../resources/sds25_3.png" alt="Foto 1"
+                                    class="w-full h-full object-cover rounded">
                             </div>
                         </div>
                 </section>
@@ -138,7 +141,8 @@
                         Construyendo un CRUD en minutos con Laravel y Filament
                     </h3>
                     <p class="text-muted">
-                        En este taller se demostraron conocimiento para el manejo de vistas funcionales de administracion, haciendo uso de Laravel y Filament y los respectivos CRUDS,
+                        En este taller se demostraron conocimiento para el manejo de vistas funcionales de
+                        administracion, haciendo uso de Laravel y Filament y los respectivos CRUDS,
                         tambien se abordo un poco sobre docker.
                     </p>
                     <div class="text-sm text-muted">
@@ -146,9 +150,8 @@
                     </div>
                 </div>
             </section>
-
             <!-- galeria -->
-            <section class="space-y-6">
+            <section class="space-y-6 text-center">
                 <h2 class="text-2xl font-semibold text-foreground">Galería Multimedia</h2>
 
                 <!-- fts -->
@@ -161,14 +164,12 @@
                         </svg>
                         Imagenes
                     </h3>
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div class="flex justify-center items-center">
                         <div
-                            class="bg-secondary border border-border rounded-lg p-2 aspect-video flex items-center justify-center">
-                            <img src="ruta" alt="Foto 1" class="w-full h-full object-cover rounded">
+                            class="bg-secondary border border-border rounded-lg p-2 aspect-video w-full max-w-3xl flex items-center justify-center">
+                            <img src="../resources/sds25_4.jpg" alt="Foto 1" class="w-full h-full object-cover rounded">
                         </div>
                     </div>
-                </div>
-
             </section>
         </div>
     </main>

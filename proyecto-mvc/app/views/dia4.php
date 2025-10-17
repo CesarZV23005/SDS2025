@@ -87,7 +87,8 @@
             <section class="bg-card border border-border rounded-lg p-8 space-y-6">
                 <h2 class="text-2xl font-semibold text-foreground">Descripción del Día</h2>
                 <p class="text-muted">
-                    Este dia se celebra la feria de logros y la gran pupuseada donde participan estudiantes e inclusivo docentes!
+                    Este dia se celebra la feria de logros y la gran pupuseada donde participan estudiantes e inclusivo
+                    docentes!
                 </p>
             </section>
 
@@ -103,7 +104,8 @@
                         Feria de logros
                     </h3>
                     <p class="text-muted">
-                        Aqui se dieron a relucir los mejores proyectos creados a lo largo del año por los estudiantes de la carrera Ingenieria de Sistemas Informaticos,
+                        Aqui se dieron a relucir los mejores proyectos creados a lo largo del año por los estudiantes de
+                        la carrera Ingenieria de Sistemas Informaticos,
                         de esta manera se conocieron proposiciones para sistemas cotidianos y algunos creatividad pura.
                     </p>
                 </div>
@@ -121,10 +123,11 @@
                             </svg>
                             Imagenes
                         </h3>
-                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <div class="flex justify-center items-center">
                             <div
-                                class="bg-secondary border border-border rounded-lg p-2 aspect-video flex items-center justify-center">
-                                <img src="ruta" alt="Foto 1" class="w-full h-full object-cover rounded">
+                                class="bg-secondary border border-border rounded-lg p-2 aspect-video w-full max-w-3xl flex items-center justify-center">
+                                <img src="../resources/sds25_6.jpg" alt="Foto 1"
+                                    class="w-full h-full object-cover rounded">
                             </div>
                         </div>
                 </section>
@@ -134,14 +137,15 @@
                         La gran pupuseada
                     </h3>
                     <p class="text-muted">
-                        Aqui se reunieron las personas mas capaces en cuanto a digustar se trata, en esta competicion se enfrentaron estudiantes, docentes para 
+                        Aqui se reunieron las personas mas capaces en cuanto a digustar se trata, en esta competicion se
+                        enfrentaron estudiantes, docentes para
                         definir al ganador con la mayor capacidad de comer pupusas.
                     </p>
                 </div>
             </section>
 
             <!-- galeria -->
-            <section class="space-y-6">
+            <section class="space-y-6 text-center">
                 <h2 class="text-2xl font-semibold text-foreground">Galería Multimedia</h2>
 
                 <!-- fts -->
@@ -154,14 +158,12 @@
                         </svg>
                         Imagenes
                     </h3>
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div class="flex justify-center items-center">
                         <div
-                            class="bg-secondary border border-border rounded-lg p-2 aspect-video flex items-center justify-center">
-                            <img src="ruta" alt="Foto 1" class="w-full h-full object-cover rounded">
+                            class="bg-secondary border border-border rounded-lg p-2 aspect-video w-full max-w-3xl flex items-center justify-center">
+                            <img src="../resources/sds25_6.jpg" alt="Foto 1" class="w-full h-full object-cover rounded">
                         </div>
                     </div>
-                </div>
-
             </section>
         </div>
     </main>

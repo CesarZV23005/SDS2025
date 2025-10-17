@@ -1,68 +1,63 @@
 <?php
+namespace app\models;
+
+use PDO;
+use PDOException;
 
 class Database {
     private $host = "db";
-    private $db_name = "appdb"; 
+    private $db_name = "appdb";
     private $username = "appuser";
     private $password = "apppass";
-    public $conn;
+    private $conn;
 
     public function getConnection() {
-        $this->conn = null;
-        try {
-            $this->conn = new PDO(
-                "mysql:host=" . $this->host . ";dbname=" . $this->db_name,
-                $this->username,
-                $this->password
-            );
-            $this->conn->exec("set names utf8");
-            $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            // echo "Conectado a la base de datos correctamente<br>";
-        } catch(PDOException $exception) {
-            echo "Error de conexión: " . $exception->getMessage();
+        if ($this->conn === null) {
+            try {
+                $this->conn = new PDO(
+                    "mysql:host={$this->host};dbname={$this->db_name}",
+                    $this->username,
+                    $this->password
+                );
+                $this->conn->exec("SET NAMES utf8");
+                $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            } catch (PDOException $exception) {
+                die("Error de conexión: " . $exception->getMessage());
+            }
         }
         return $this->conn;
     }
 }
 
 class Visita {
-    public $nombre;
-    public $comentario;
-    public $fecha;
+    private $conn;
+
+    public function __construct() {
+        $database = new Database();
+        $this->conn = $database->getConnection();
+    }
+
+    //guardar nueva visita
+    public function guardar($nombre, $comentario) {
+        try {
+            $sql = "INSERT INTO visitas (nombre, comentario, fecha) VALUES (:nombre, :comentario, NOW())";
+            $stmt = $this->conn->prepare($sql);
+            $stmt->bindParam(':nombre', $nombre);
+            $stmt->bindParam(':comentario', $comentario);
+            $stmt->execute();
+        } catch (PDOException $e) {
+            echo "Error al guardar la visita: " . $e->getMessage();
+        }
+    }
+
+    //obbtener todas las visitas
+    public function obtenerTodas() {
+        try {
+            $stmt = $this->conn->query("SELECT * FROM visitas ORDER BY fecha DESC");
+            return $stmt->fetchAll(PDO::FETCH_ASSOC);
+        } catch (PDOException $e) {
+            echo "Error al obtener visitas: " . $e->getMessage();
+            return [];
+        }
+    }
 }
-
-// Instanciar conexión
-$database = new Database();
-$conn_temp = $database->getConnection();
-
-// 🔹 Insertar registros de prueba
-/*
-$stmt = $conn_temp->prepare("INSERT INTO visitas(nombre, comentario) VALUES(:nombre, :comentario)");
-
-$visita1 = new Visita();
-$visita1->nombre = "Zule";
-$visita1->comentario = "Excelente evento de apertura";
-
-if ($stmt->execute((array)$visita1)) {
-    echo "Insertado 1<br>";
-}
-
-$visita2 = new Visita();
-$visita2->nombre = "Manuel";
-$visita2->comentario = "Muy buena ponencia del día 2";
-
-if ($stmt->execute((array)$visita2)) {
-    echo "Insertado 2<br>";
-}
-*/
-
-// 🔹 Consultar registros
-$stmt = $conn_temp->query("SELECT * FROM visitas ORDER BY fecha DESC");
-$data = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
-foreach ($data as $item) {
-    echo "Nombre: " . htmlspecialchars($item["nombre"]) . "<br>";
-    echo "Comentario: " . htmlspecialchars($item["comentario"]) . "<br>";
-    echo "Fecha: " . $item["fecha"] . "<hr>";
-}
-?>
