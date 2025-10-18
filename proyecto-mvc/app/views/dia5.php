@@ -133,16 +133,17 @@
                 <!-- info 2 -->
                 <div class="bg-card border border-border rounded-lg p-6 space-y-3">
                     <h3 class="text-xl font-semibold text-primary">
-
+                        Torneo de videojuegos
                     </h3>
                     <p class="text-muted">
-
+                        En esta actividad los estudiantes inscritos compiten entre si en este entretenido y divertido
+                        torneo de Clash Royale, probando asi
+                        sus habilidades y encontrando un ganador entre todos.
                     </p>
                 </div>
             </section>
-
             <!-- galeria -->
-            <section class="space-y-6">
+            <section class="space-y-6 text-center">
                 <h2 class="text-2xl font-semibold text-foreground">Galería Multimedia</h2>
 
                 <!-- fts -->
@@ -155,14 +156,13 @@
                         </svg>
                         Imagenes
                     </h3>
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div class="flex justify-center items-center">
                         <div
-                            class="bg-secondary border border-border rounded-lg p-2 aspect-video flex items-center justify-center">
-                            <img src="ruta" alt="Foto 1" class="w-full h-full object-cover rounded">
+                            class="bg-secondary border border-border rounded-lg p-2 aspect-video w-full max-w-3xl flex items-center justify-center">
+                            <img src="../resources/sds25_8.jpeg" alt="Foto 1"
+                                class="w-full h-full object-cover rounded">
                         </div>
                     </div>
-                </div>
-
             </section>
         </div>
     </main>
