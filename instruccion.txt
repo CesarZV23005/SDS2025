@@ -1,0 +1,13 @@
+luego de hacer 
+docker compose up -d
+
+dirigirse a 
+http://localhost:8081/proyecto-mvc/public/layout
+
+la tabla que debera crear en la db_visitas es:
+CREATE TABLE visitas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    comentario TEXT NOT NULL,
+    fecha DATETIME DEFAULT CURRENT_TIMESTAMP
+);
